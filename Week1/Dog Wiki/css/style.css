@@ -11,8 +11,6 @@ body {
   margin-right: 10px;
   box-shadow:  5px 5px 10px 1px #888888;
   background-color: aliceblue;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .wiki-header {
@@ -22,6 +20,8 @@ body {
 .wiki-content {
   display: flex;
   flex-direction: column-reverse;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .wiki-text {
@@ -31,7 +31,7 @@ body {
 @media (min-width: 600px) {
   .wiki-content {
     display: flex; 
-    flex-direction: row;
+    flex-direction: row-reverse;
     gap: 10px;
   }
 
