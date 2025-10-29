@@ -34,7 +34,6 @@ body {
   .wiki-content {
     display: flex; 
     flex-direction: row-reverse;
-    gap: 10px;
   }
 
   .wiki-text {
@@ -42,7 +41,7 @@ body {
     min-width: 50%;
   }
 
-  .wiki.img-container {
+  .img-container {
     max-width: 50%;
     min-width: 50%;
   }
