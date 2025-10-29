@@ -4,7 +4,7 @@ body {
 
 .wiki-img {
   width: 100%;
-}
+} 
 
 .wiki-item {
   margin-left: 10px;
@@ -39,7 +39,12 @@ body {
 
   .wiki-text {
     max-width: 50%;
-    margin: 0px;
+    min-width: 50%;
+  }
+
+  .wiki.img-container {
+    max-width: 50%;
+    min-width: 50%;
   }
 
   .container {
